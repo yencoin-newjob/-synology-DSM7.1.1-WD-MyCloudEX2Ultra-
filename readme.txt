@@ -12,3 +12,5 @@
 	7. 打开控制面板-计划任务-新增-计划任务-用户自定义的脚本，粘贴进脚本，设置好执行时间，最好设置一下电子邮件通知，每天通知执行情况。
 	8. 命令如下：rsync -avzhP --update 源目录地址（空格）目标目录地址
 	rsync -avzhP --update /volume1/public /volume1/NetBackup  (注意：目标目录地址不需再加上目录名，只用 "源地址/目录名" to "目标目录地址")，执行后会在NetBackup下自动生成“public”目录
+
+另一种是WD通过Rsync这个命令行程序，将synology的内容进行备份，区别就是用哪个NAS的CPU来烧脑。
