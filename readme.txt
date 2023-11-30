@@ -1,4 +1,6 @@
-参考来自https://www.vinchin.com/en/blog/backup-synology-nas-to-wd-my-cloud.html这里有两种方式，一种是synology通过Hyper Backup进行同步。
+参考来自https://www.vinchin.com/en/blog/backup-synology-nas-to-wd-my-cloud.html这里有两种方式，
+
+一种是synology通过自动任务进行同步。
 将 My Cloud 挂载到 Synology
 	1. 将 Synology 和 My Cloud 连接到路由器/交换机。
 	2.  登录 DSM，打开File Station >工具>挂载远程文件夹> CIFS Shared Golder（适用于 SMB 共享）。需要输入WD的用户与密码。
