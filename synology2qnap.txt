@@ -2,17 +2,17 @@ Qnap上安装Hybrid Backup Sync
 固件版本：4.2.6 Build 20240618
 
 用SSH登进入群晖
-ssh -p 18322 adymm@192.168.1.38
+ssh -p 18322 adymm@192.168.x.x
 测试与QNAP的连接
-smbclient //192.168.1.48/backup -U 38backup
+smbclient //192.168.x.x/backup -U xxx
 或者用
-ssh admin@192.168.1.48
+ssh xxx@192.168.x.x
 
 连接成功后，
 在Qnap上，找开Hyper Backup Sync, 再进入“备份服务器”。
 端口号：873
-用户名：newjobbak
-密码：N**1**5***9
+用户名：xxx
+密码：xxx***xxx
 
 ******************这样就搭建了一个RSYNC的兼容服务器，
 可以供群晖同步用*******************************
